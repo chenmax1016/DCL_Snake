@@ -1,0 +1,952 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Dec 22 21:54:23 2024
+# Process ID: 15268
+# Current directory: D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.runs/synth_1
+# Command line: vivado.exe -log lab10.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab10.tcl
+# Log file: D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.runs/synth_1/lab10.vds
+# Journal file: D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.runs/synth_1\vivado.jou
+# Running On        :MSI
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :8403 MB
+# Swap memory       :18253 MB
+# Total Virtual     :26656 MB
+# Available Virtual :12016 MB
+#-----------------------------------------------------------
+source lab10.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 491.895 ; gain = 198.395
+Command: read_checkpoint -auto_incremental -incremental D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/utils_1/imports/synth_1/lab10.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top lab10 -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Device 21-9227] Part: xc7a35ticsg324-1L does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23432
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1346.727 ; gain = 447.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'sram_we', assumed default net type 'wire' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+INFO: [Synth 8-11241] undeclared symbol 'sram_en', assumed default net type 'wire' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+INFO: [Synth 8-11241] undeclared symbol 'data_in', assumed default net type 'wire' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+INFO: [Synth 8-11241] undeclared symbol 'fish_region_2', assumed default net type 'wire' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:846]
+WARNING: [Synth 8-6901] identifier 'isChooseMap' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:77]
+WARNING: [Synth 8-6901] identifier 'num_reg' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:83]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:83]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:83]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:83]
+WARNING: [Synth 8-6901] identifier 'num_reg' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:84]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:84]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:84]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:84]
+WARNING: [Synth 8-6901] identifier 'num_reg' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:85]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:85]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:85]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:85]
+WARNING: [Synth 8-6901] identifier 'num_reg' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:86]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:86]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:86]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:86]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:89]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:89]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:89]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:90]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:90]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:90]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:91]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:91]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:91]
+WARNING: [Synth 8-6901] identifier 'gameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:92]
+WARNING: [Synth 8-6901] identifier 'snakeHeadY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:92]
+WARNING: [Synth 8-6901] identifier 'snakeHeadX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:92]
+WARNING: [Synth 8-6901] identifier 'UpdateApple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:634]
+WARNING: [Synth 8-6901] identifier 'seed1' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:635]
+WARNING: [Synth 8-6901] identifier 'seed2' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:635]
+WARNING: [Synth 8-6901] identifier 'seed1' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:635]
+WARNING: [Synth 8-6901] identifier 'seed2' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:635]
+WARNING: [Synth 8-6901] identifier 'seed3' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:636]
+WARNING: [Synth 8-6901] identifier 'seed4' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:636]
+WARNING: [Synth 8-6901] identifier 'seed3' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:636]
+WARNING: [Synth 8-6901] identifier 'seed4' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:636]
+WARNING: [Synth 8-6901] identifier 'seed5' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:637]
+WARNING: [Synth 8-6901] identifier 'seed6' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:637]
+WARNING: [Synth 8-6901] identifier 'seed5' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:637]
+WARNING: [Synth 8-6901] identifier 'seed6' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:637]
+WARNING: [Synth 8-6901] identifier 'inGameGrid' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:735]
+WARNING: [Synth 8-6901] identifier 'currGridX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:736]
+WARNING: [Synth 8-6901] identifier 'currGridY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:736]
+WARNING: [Synth 8-6901] identifier 'currGridX' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:744]
+WARNING: [Synth 8-6901] identifier 'currGridY' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:744]
+WARNING: [Synth 8-6901] identifier 'fish_region_1' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:789]
+WARNING: [Synth 8-6901] identifier 'data_fish2' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:789]
+WARNING: [Synth 8-6901] identifier 'data_fish3' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:790]
+WARNING: [Synth 8-6901] identifier 'greedy_region' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:791]
+WARNING: [Synth 8-6901] identifier 'data_greedy' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:791]
+WARNING: [Synth 8-6901] identifier 'scoreword_region' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:792]
+WARNING: [Synth 8-6901] identifier 'data_scoreword' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:792]
+WARNING: [Synth 8-6901] identifier 'gameover_region' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:793]
+WARNING: [Synth 8-6901] identifier 'score' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:793]
+WARNING: [Synth 8-6901] identifier 'data_gameover' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:793]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:796]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:796]
+WARNING: [Synth 8-6901] identifier 'data_obstacle' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:797]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:802]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:802]
+WARNING: [Synth 8-6901] identifier 'data_obstacle' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:803]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:808]
+WARNING: [Synth 8-6901] identifier 'data_apple' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:808]
+WARNING: [Synth 8-6901] identifier 'data_obstacle' is used before its declaration [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:809]
+INFO: [Synth 8-6157] synthesizing module 'lab10' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:582]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/vga_sync.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/vga_sync.v:19]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/clk_divider.v:21]
+	Parameter divider bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/clk_divider.v:21]
+INFO: [Synth 8-6157] synthesizing module 'sramSnake' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramSnake.v:23]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 3600 - type: integer 
+INFO: [Synth 8-3876] $readmem data file '4head1body4tail.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramSnake.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'sramSnake' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramSnake.v:23]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramSnake' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramSnake' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:745]
+INFO: [Synth 8-6157] synthesizing module 'sram2' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram2.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 32000 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'score.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram2.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sram2' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram2.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sram2' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:831]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sram2' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:831]
+INFO: [Synth 8-6157] synthesizing module 'sram3' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram3.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 32000 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'score1.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram3.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sram3' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/ram3.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sram3' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:834]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sram3' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:834]
+INFO: [Synth 8-6157] synthesizing module 'sramGreedy' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGreedy.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 28800 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'Greedy.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGreedy.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sramGreedy' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGreedy.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramGreedy' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:890]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramGreedy' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:890]
+INFO: [Synth 8-6157] synthesizing module 'sramScore' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramScore.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 3200 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'scoreWord.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramScore.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sramScore' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramScore.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramScore' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:917]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramScore' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:917]
+INFO: [Synth 8-6157] synthesizing module 'sramGameover' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGameover.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 38400 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'gameover.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGameover.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sramGameover' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramGameover.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramGameover' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:944]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramGameover' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:944]
+INFO: [Synth 8-6157] synthesizing module 'sramOB' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramOB.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 400 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'obstacle.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramOB.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sramOB' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramOB.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramOB' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:971]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramOB' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:971]
+INFO: [Synth 8-6157] synthesizing module 'sramAP' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramAP.v:8]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 18 - type: integer 
+	Parameter RAM_SIZE bound to: 400 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'apple.mem' is read successfully [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramAP.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'sramAP' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/sramAP.v:8]
+WARNING: [Synth 8-689] width (17) of port connection 'addr' does not match port width (18) of module 'sramAP' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:997]
+WARNING: [Synth 8-689] width (1) of port connection 'data_i' does not match port width (12) of module 'sramAP' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:997]
+INFO: [Synth 8-6157] synthesizing module 'uart' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/uart.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/new/uart.v:31]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:1082]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:1112]
+INFO: [Synth 8-6155] done synthesizing module 'lab10' (0#1) [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:23]
+WARNING: [Synth 8-6014] Unused sequential element testCounter_reg was removed.  [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:99]
+WARNING: [Synth 8-6014] Unused sequential element pleasRemoveIfHaveState_reg was removed.  [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:156]
+WARNING: [Synth 8-6014] Unused sequential element snakeLength_reg was removed.  [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:190]
+WARNING: [Synth 8-6014] Unused sequential element snakeTailChooseImage_reg was removed.  [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:201]
+WARNING: [Synth 8-6014] Unused sequential element pixel_addr_apple_reg was removed.  [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:999]
+WARNING: [Synth 8-3848] Net sram_en in module/entity lab10 does not have driver. [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:719]
+WARNING: [Synth 8-7129] Port addr[17] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module sramAP is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module sramOB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sramGameover is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramGameover is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module sramScore is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sramGreedy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramGreedy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sramGreedy is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sram3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sram3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sram3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sram2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sram2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sram2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module sramSnake is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_sw[3] in module lab10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_sw[2] in module lab10 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:41 ; elapsed = 00:00:49 . Memory (MB): peak = 2190.277 ; gain = 1290.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 2190.277 ; gain = 1290.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 2190.277 ; gain = 1290.766
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.979 . Memory (MB): peak = 2190.277 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/constrs_1/lab10.xdc]
+Finished Parsing XDC File [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/constrs_1/lab10.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/constrs_1/lab10.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab10_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab10_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2282.836 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.176 . Memory (MB): peak = 2282.836 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:00 ; elapsed = 00:01:20 . Memory (MB): peak = 2282.836 ; gain = 1383.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:00 ; elapsed = 00:01:20 . Memory (MB): peak = 2282.836 ; gain = 1383.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:20 . Memory (MB): peak = 2282.836 ; gain = 1383.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6702] IncrSynth : Design change found in an area of the design that prevents previous synthesis information being used, Reverting to default synthesis
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:01:06 ; elapsed = 00:01:29 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:01:06 ; elapsed = 00:01:29 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'Q_reg' in module 'lab10'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             S_UART_IDLE |                               00 |                               00
+             S_UART_WAIT |                               01 |                               01
+             S_UART_SEND |                               10 |                               10
+             S_UART_INCR |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'Q_reg' using encoding 'sequential' in module 'lab10'
+WARNING: [Synth 8-327] inferring latch for variable 'P_next_reg' [D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.srcs/sources_1/lab10.v:1114]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:46 ; elapsed = 00:02:25 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : Design change found in an area of the design that prevents previous synthesis information being used
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 1     
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 6     
+	   3 Input    8 Bit       Adders := 6     
+	   2 Input    7 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 5     
+	               16 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 9     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 29    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 4     
+	                5 Bit    Registers := 576   
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 7     
++---RAMs : 
+	             450K Bit	(38400 X 12 bit)          RAMs := 1     
+	             375K Bit	(32000 X 12 bit)          RAMs := 2     
+	             337K Bit	(28800 X 12 bit)          RAMs := 1     
+	              42K Bit	(3600 X 12 bit)          RAMs := 1     
+	              37K Bit	(3200 X 12 bit)          RAMs := 1     
+	               4K Bit	(400 X 12 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   26 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 11    
+	   5 Input   12 Bit        Muxes := 1     
+	   4 Input   11 Bit        Muxes := 2     
+	   2 Input   11 Bit        Muxes := 4     
+	   8 Input   11 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 8     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 13    
+	   5 Input    6 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4234  
+	   4 Input    5 Bit        Muxes := 266   
+	   5 Input    5 Bit        Muxes := 3     
+	   6 Input    5 Bit        Muxes := 2     
+	  24 Input    5 Bit        Muxes := 1     
+	   7 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 6     
+	   2 Input    4 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 46    
+	   5 Input    2 Bit        Muxes := 3     
+	   4 Input    2 Bit        Muxes := 3     
+	   3 Input    2 Bit        Muxes := 2     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1195  
+	   4 Input    1 Bit        Muxes := 317   
+	   3 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port usr_sw[3] in module lab10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port usr_sw[2] in module lab10 is either unconnected or has no load
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[16][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[16][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][17][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][17][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[8][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[8][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[7][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[7][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][7][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][7][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][18][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[22][18][4]' (FDRE) to 'gameGrid_reg[22][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[21][18][4]' (FDRE) to 'gameGrid_reg[21][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[20][18][4]' (FDRE) to 'gameGrid_reg[20][18][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][18][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[18][18][4]' (FDRE) to 'gameGrid_reg[18][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[17][18][4]' (FDRE) to 'gameGrid_reg[17][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[16][18][4]' (FDRE) to 'gameGrid_reg[16][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[15][18][4]' (FDRE) to 'gameGrid_reg[15][18][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][18][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[13][18][4]' (FDRE) to 'gameGrid_reg[13][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[12][18][4]' (FDRE) to 'gameGrid_reg[12][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[11][18][4]' (FDRE) to 'gameGrid_reg[11][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[10][18][4]' (FDRE) to 'gameGrid_reg[10][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[9][18][4]' (FDRE) to 'gameGrid_reg[9][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[8][18][4]' (FDRE) to 'gameGrid_reg[8][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[7][18][4]' (FDRE) to 'gameGrid_reg[7][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[6][18][4]' (FDRE) to 'gameGrid_reg[6][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[5][18][4]' (FDRE) to 'gameGrid_reg[5][18][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][18][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[3][18][4]' (FDRE) to 'gameGrid_reg[3][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[2][18][4]' (FDRE) to 'gameGrid_reg[2][18][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[1][18][4]' (FDRE) to 'gameGrid_reg[1][18][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][18][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][15][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[22][15][4]' (FDRE) to 'gameGrid_reg[22][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[21][15][4]' (FDRE) to 'gameGrid_reg[21][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[20][15][4]' (FDRE) to 'gameGrid_reg[20][15][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][15][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[18][15][4]' (FDRE) to 'gameGrid_reg[18][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[17][15][4]' (FDRE) to 'gameGrid_reg[17][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[16][15][4]' (FDRE) to 'gameGrid_reg[16][15][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[15][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[8][15][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[7][15][4]' (FDRE) to 'gameGrid_reg[7][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[6][15][4]' (FDRE) to 'gameGrid_reg[6][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[5][15][4]' (FDRE) to 'gameGrid_reg[5][15][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][15][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[3][15][4]' (FDRE) to 'gameGrid_reg[3][15][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[2][15][4]' (FDRE) to 'gameGrid_reg[2][15][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[1][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][15][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][6][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[22][6][4]' (FDRE) to 'gameGrid_reg[22][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[21][6][4]' (FDRE) to 'gameGrid_reg[21][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[20][6][4]' (FDRE) to 'gameGrid_reg[20][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][6][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[18][6][4]' (FDRE) to 'gameGrid_reg[18][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[17][6][4]' (FDRE) to 'gameGrid_reg[17][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[16][6][4]' (FDRE) to 'gameGrid_reg[16][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[15][6][4]' (FDRE) to 'gameGrid_reg[15][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][6][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][6][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[12][6][4]' (FDRE) to 'gameGrid_reg[12][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[11][6][4]' (FDRE) to 'gameGrid_reg[11][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][6][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][6][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[8][6][4]' (FDRE) to 'gameGrid_reg[8][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[7][6][4]' (FDRE) to 'gameGrid_reg[7][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[6][6][4]' (FDRE) to 'gameGrid_reg[6][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[5][6][4]' (FDRE) to 'gameGrid_reg[5][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][6][4] )
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[3][6][4]' (FDRE) to 'gameGrid_reg[3][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[2][6][4]' (FDRE) to 'gameGrid_reg[2][6][3]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[1][6][4]' (FDRE) to 'gameGrid_reg[1][6][3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][6][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[22][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[21][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[20][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[19][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[18][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[17][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[16][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[15][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[14][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[13][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[12][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[11][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[10][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[9][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[8][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[7][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[6][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[5][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[4][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[3][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[2][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[1][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[0][18][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[23][15][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[22][15][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[21][15][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gameGrid_reg[20][15][3] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "p_0_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+DSP Report: Generating DSP pixel_addr_fish22, operation Mode is: A*(B:0xc80).
+DSP Report: operator pixel_addr_fish22 is absorbed into DSP pixel_addr_fish22.
+DSP Report: Generating DSP pixel_addr_fish20, operation Mode is: PCIN+(A:0x0):B+(C:0xfffffffffdd0).
+DSP Report: operator pixel_addr_fish20 is absorbed into DSP pixel_addr_fish20.
+DSP Report: Generating DSP pixel_addr_fish2_reg, operation Mode is: PCIN+(D+(A:0x3ffffe70))*(B:0x28).
+DSP Report: register pixel_addr_fish2_reg is absorbed into DSP pixel_addr_fish2_reg.
+DSP Report: operator pixel_addr_fish20 is absorbed into DSP pixel_addr_fish2_reg.
+DSP Report: operator pixel_addr_fish21 is absorbed into DSP pixel_addr_fish2_reg.
+DSP Report: operator pixel_addr_fish22 is absorbed into DSP pixel_addr_fish2_reg.
+DSP Report: Generating DSP pixel_addr_fish21, operation Mode is: (D+(A:0x3ffffe70))*(B:0x28).
+DSP Report: operator pixel_addr_fish21 is absorbed into DSP pixel_addr_fish21.
+DSP Report: operator pixel_addr_fish22 is absorbed into DSP pixel_addr_fish21.
+DSP Report: Generating DSP pixel_addr_greedy1, operation Mode is: A*(B:0x50).
+DSP Report: operator pixel_addr_greedy1 is absorbed into DSP pixel_addr_greedy1.
+DSP Report: Generating DSP pixel_addr_greedy_reg, operation Mode is: PCIN+(A:0x0):B+(C:0xfffffffffdd0).
+DSP Report: register pixel_addr_greedy_reg is absorbed into DSP pixel_addr_greedy_reg.
+DSP Report: operator pixel_addr_greedy0 is absorbed into DSP pixel_addr_greedy_reg.
+DSP Report: Generating DSP pixel_addr_scoreword1, operation Mode is: (D+(A:0x3ffffe98))*(B:0x50).
+DSP Report: operator pixel_addr_scoreword1 is absorbed into DSP pixel_addr_scoreword1.
+DSP Report: operator pixel_addr_scoreword2 is absorbed into DSP pixel_addr_scoreword1.
+DSP Report: Generating DSP pixel_addr_scoreword_reg, operation Mode is: PCIN+(A:0x0):B+(C:0xfffffffffdd0).
+DSP Report: register pixel_addr_scoreword_reg is absorbed into DSP pixel_addr_scoreword_reg.
+DSP Report: operator pixel_addr_scoreword0 is absorbed into DSP pixel_addr_scoreword_reg.
+DSP Report: Generating DSP pixel_addr_gameover1, operation Mode is: (D+(A:0x3fffff38))*(B:0x1e0).
+DSP Report: operator pixel_addr_gameover1 is absorbed into DSP pixel_addr_gameover1.
+DSP Report: operator pixel_addr_gameover2 is absorbed into DSP pixel_addr_gameover1.
+DSP Report: Generating DSP pixel_addr_gameover_reg, operation Mode is: PCIN+(A:0x0):B+(C:0xffffffffffb0).
+DSP Report: register pixel_addr_gameover_reg is absorbed into DSP pixel_addr_gameover_reg.
+DSP Report: operator pixel_addr_gameover0 is absorbed into DSP pixel_addr_gameover_reg.
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[22][8][3]' (FDRE) to 'gameGrid_reg[22][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[21][8][3]' (FDRE) to 'gameGrid_reg[21][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[20][8][3]' (FDRE) to 'gameGrid_reg[20][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[18][8][3]' (FDRE) to 'gameGrid_reg[18][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[17][8][3]' (FDRE) to 'gameGrid_reg[17][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[16][8][3]' (FDRE) to 'gameGrid_reg[16][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[6][8][3]' (FDRE) to 'gameGrid_reg[6][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[5][8][3]' (FDRE) to 'gameGrid_reg[5][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[3][8][3]' (FDRE) to 'gameGrid_reg[3][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[2][8][3]' (FDRE) to 'gameGrid_reg[2][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[1][8][3]' (FDRE) to 'gameGrid_reg[1][8][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[22][4][3]' (FDRE) to 'gameGrid_reg[22][4][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[21][4][3]' (FDRE) to 'gameGrid_reg[21][4][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[20][4][3]' (FDRE) to 'gameGrid_reg[20][4][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[2][4][3]' (FDRE) to 'gameGrid_reg[2][4][4]'
+INFO: [Synth 8-3886] merging instance 'gameGrid_reg[1][4][3]' (FDRE) to 'gameGrid_reg[1][4][4]'
+INFO: [Synth 8-3886] merging instance 'data_reg[27][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[25][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[20][6]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[18][6]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[16][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[14][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[13][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[11][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[10][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[9][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[8][6]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[7][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[6][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[5][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[4][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[3][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[0][6]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[2][6]' (FDSE) to 'data_reg[27][0]'
+INFO: [Synth 8-3886] merging instance 'data_reg[1][6]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[27][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[25][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[20][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[18][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[16][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[14][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[13][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[11][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[10][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[9][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[8][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[7][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[6][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[5][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[4][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[3][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[0][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[2][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Synth 8-3886] merging instance 'data_reg[1][7]' (FDRE) to 'data_reg[27][1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:45 ; elapsed = 00:03:58 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+ Sort Area is lab10__GB3 pixel_addr_fish22_a : 0 0 : 255 482 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_fish22_a : 0 1 : 71 482 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_fish22_a : 0 2 : 156 482 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_gameover1_0 : 0 0 : 272 361 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_gameover1_0 : 0 1 : 89 361 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_scoreword1_3 : 0 0 : 165 253 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_scoreword1_3 : 0 1 : 88 253 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_greedy1_6 : 0 0 : 50 138 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_greedy1_6 : 0 1 : 88 138 : Used 1 time 0
+ Sort Area is lab10__GB3 pixel_addr_fish21_8 : 0 0 : 89 89 : Used 1 time 0
+WARNING: [Synth 8-5835] Resources of type BRAM have been overutilized. Used = 128, Available = 100. Will try to implement using LUT-RAM. 
+CRITICAL WARNING: [Synth 8-7048] Resources of type BRAM have been overutilized even after performing resource management. Used = 120, Available = 100. 
+ DSP resource Status: pixel_addr_fish22_a 0 482 255: Used 1 time : Accepted (1 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_fish22_a 1 482 71: Used 1 time : Accepted (2 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_fish22_a 2 482 156: Used 1 time : Accepted (3 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_fish21_8 0 89 89: Used 1 time : Accepted (10 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_greedy1_6 0 138 50: Used 1 time : Accepted (8 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_greedy1_6 1 138 88: Used 1 time : Accepted (9 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_scoreword1_3 0 253 165: Used 1 time : Accepted (6 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_scoreword1_3 1 253 88: Used 1 time : Accepted (7 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_gameover1_0 0 361 272: Used 1 time : Accepted (4 < 90) uniquify 0 
+ DSP resource Status: pixel_addr_gameover1_0 1 361 89: Used 1 time : Accepted (5 < 90) uniquify 0 
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "lab10/ram_8/RAM_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "lab10/ramSnake/RAM_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "lab10/ram_5/RAM_reg",trying to implement using LUTRAM
+WARNING: [Synth 8-6849] Infeasible attribute ram_style = "block" set for RAM "lab10/ram_7/RAM_reg",trying to implement using LUTRAM
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|lab10__GB3  | ram_2/RAM_reg | 31 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_3/RAM_reg | 31 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_4/RAM_reg | 28 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_6/RAM_reg | 37 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 24     | 
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+------------------+-----------+----------------------+----------------------------------------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives                                   | 
++------------+------------------+-----------+----------------------+----------------------------------------------+
+|lab10       | ram_8/RAM_reg    | Implied   | 512 x 12             | RAM16X1S x 12 RAM128X1S x 12 RAM256X1S x 12  | 
+|lab10       | ramSnake/RAM_reg | Implied   | 4 K x 12             | RAM16X1S x 12 RAM256X1S x 168                | 
+|lab10       | ram_5/RAM_reg    | Implied   | 4 K x 12             | RAM128X1S x 12 RAM256X1S x 144               | 
+|lab10       | ram_7/RAM_reg    | Implied   | 512 x 12             | RAM16X1S x 12 RAM128X1S x 12 RAM256X1S x 12  | 
++------------+------------------+-----------+----------------------+----------------------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|lab10       | A*(B:0xc80)                       | 15     | 12     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|lab10__GB3  | PCIN+(A:0x0):B+(C:0xfffffffffdd0) | 30     | 10     | 11     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|lab10       | PCIN+(D+(A:0x3ffffe70))*(B:0x28)  | 17     | 6      | -      | 10     | 17     | 0    | 0    | -    | 0    | 0     | 0    | 1    | 
+|lab10       | (D+(A:0x3ffffe70))*(B:0x28)       | 17     | 6      | -      | 10     | 23     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | A*(B:0x50)                        | 10     | 7      | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|lab10       | PCIN+(A:0x0):B+(C:0xfffffffffdd0) | 30     | 10     | 11     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|lab10       | (D+(A:0x3ffffe98))*(B:0x50)       | 17     | 7      | -      | 10     | 24     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | PCIN+(A:0x0):B+(C:0xfffffffffdd0) | 30     | 10     | 11     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
+|lab10       | (D+(A:0x3fffff38))*(B:0x1e0)      | 17     | 9      | -      | 10     | 26     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | PCIN+(A:0x0):B+(C:0xffffffffffb0) | 30     | 10     | 8      | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 1    | 
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:53 ; elapsed = 00:04:10 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:12 ; elapsed = 00:04:31 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|lab10__GB3  | ram_2/RAM_reg | 31 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_3/RAM_reg | 31 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_4/RAM_reg | 28 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 12     | 
+|lab10__GB3  | ram_6/RAM_reg | 37 K x 12(WRITE_FIRST) | W | R |                        |   |   | Port A           | 0      | 24     | 
++------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++------------+------------------+-----------+----------------------+----------------------------------------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives                                   | 
++------------+------------------+-----------+----------------------+----------------------------------------------+
+|lab10       | ram_8/RAM_reg    | Implied   | 512 x 12             | RAM16X1S x 12 RAM128X1S x 12 RAM256X1S x 12  | 
+|lab10       | ramSnake/RAM_reg | Implied   | 4 K x 12             | RAM16X1S x 12 RAM256X1S x 168                | 
+|lab10       | ram_5/RAM_reg    | Implied   | 4 K x 12             | RAM128X1S x 12 RAM256X1S x 144               | 
+|lab10       | ram_7/RAM_reg    | Implied   | 512 x 12             | RAM16X1S x 12 RAM128X1S x 12 RAM256X1S x 12  | 
++------------+------------------+-----------+----------------------+----------------------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_2/RAM_reg_0_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_4/RAM_reg_0_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance ram_6/RAM_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:19 ; elapsed = 00:04:40 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:27 ; elapsed = 00:04:48 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:27 ; elapsed = 00:04:48 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:28 ; elapsed = 00:04:50 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:28 ; elapsed = 00:04:50 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:31 ; elapsed = 00:04:52 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:31 ; elapsed = 00:04:53 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|lab10       | A*B           | 15     | 12     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|lab10__GB3  | PCIN+A':B'+C  | 0      | 10     | -      | -      | 17     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|lab10       | (PCIN+D+A*B)' | 30     | 6      | -      | 10     | 17     | 0    | 0    | -    | 0    | 0     | 0    | 1    | 
+|lab10       | D+A*B         | 30     | 6      | -      | 10     | 23     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | A'*B          | 10     | 7      | -      | -      | 17     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|lab10       | (PCIN+A:B+C)' | 0      | 10     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|lab10       | D+A*B         | 30     | 7      | -      | 10     | 0      | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | (PCIN+A:B+C)' | 0      | 10     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|lab10       | D+A*B         | 30     | 9      | -      | 10     | 0      | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|lab10       | (PCIN+A:B+C)' | 0      | 10     | -      | -      | 17     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     1|
+|2     |CARRY4    |   223|
+|3     |DSP48E1   |    10|
+|9     |LUT1      |    75|
+|10    |LUT2      |   741|
+|11    |LUT3      |   946|
+|12    |LUT4      |  1222|
+|13    |LUT5      |  1906|
+|14    |LUT6      |  9602|
+|15    |MUXF7     |  1509|
+|16    |MUXF8     |    41|
+|17    |RAM128X1S |    36|
+|18    |RAM16X1S  |    36|
+|19    |RAM256X1S |   336|
+|20    |RAMB36E1  |    48|
+|51    |FDRE      |  2064|
+|52    |FDSE      |   317|
+|53    |IBUF      |     9|
+|54    |OBUF      |    19|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:31 ; elapsed = 00:04:53 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:39 ; elapsed = 00:04:46 . Memory (MB): peak = 2311.363 ; gain = 1319.293
+Synthesis Optimization Complete : Time (s): cpu = 00:03:31 ; elapsed = 00:05:02 . Memory (MB): peak = 2311.363 ; gain = 1411.852
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 2311.363 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2239 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'lab10' is not ideal for floorplanning, since the cellview 'lab10' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2311.363 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 408 instances were transformed.
+  RAM128X1S => RAM128X1S (MUXF7, RAMS64E(x2)): 36 instances
+  RAM16X1S => RAM32X1S (RAMS32): 36 instances
+  RAM256X1S => RAM256X1S (MUXF7(x2), MUXF8, RAMS64E(x4)): 336 instances
+
+Synth Design complete | Checksum: 1d3043cd
+INFO: [Common 17-83] Releasing license: Synthesis
+316 Infos, 142 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:39 ; elapsed = 00:05:22 . Memory (MB): peak = 2311.363 ; gain = 1813.980
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 2311.363 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/chenm/nycu/DCL/Lab/FP_finalversion/Lab10/lab10.runs/synth_1/lab10.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file lab10_utilization_synth.rpt -pb lab10_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 22 22:00:10 2024...

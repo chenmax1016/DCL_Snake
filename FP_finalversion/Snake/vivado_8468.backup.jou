@@ -1,0 +1,78 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Dec 20 02:47:51 2024
+# Process ID: 8468
+# Current directory: D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8328 D:\chenm\nycu\DCL\Lab\FP_wasd\FP_add_map1_switch\complete FP\complete FP\FP_with_score\FP\Lab10\lab10\lab10.xpr
+# Log file: D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/vivado.log
+# Journal file: D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10\vivado.jou
+# Running On        :MSI
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :8403 MB
+# Swap memory       :19327 MB
+# Total Virtual     :27730 MB
+# Available Virtual :18851 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.xpr}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/chenm/nycu/DCL/Lab/FP_wasd/FP_add_map1_switch/complete FP/complete FP/FP_with_score/FP/Lab10/lab10/lab10.runs/impl_1/lab10.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
